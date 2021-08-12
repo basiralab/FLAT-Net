@@ -1,6 +1,6 @@
-# Few-shot LeArning Training Net-work (FLAT-Net), 
+# Few-shot LeArning Training Net-work (FLAT-Net),
 
-How to accurately  and  efficiently predictbrain graph evolution over time with small set of training examples?
+How to accurately and  efficiently predict brain graph evolution over time with small set of training examples?
 
 Please contact gurisozen@gmail.com for inquiries. Thank you. 
 
