@@ -46,7 +46,7 @@ This is all for CPU installation, please visit (optional) PyTorch-Geometric’s 
  
 
 ## Run FLAT-Net
-To run our code, open up a terminal at FLAT-Nets’s directory and type in
+To run our code, open up a terminal at FLAT-Net’s directory and type in
 ```sh
 $ conda activate FLAT-Net 
 $ python demo.py
