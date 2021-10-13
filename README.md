@@ -86,11 +86,10 @@ When given the brain connections data at t0, demo.py will produce two matrices s
 ## YouTube videos to install and run the code and understand how DGN works
 
 To install and run FLAT-Net, check the following YouTube video: 
-
-
+https://youtu.be/Q8RWv01j_PI
 
 To learn about how FLAT-Net works, check the following YouTube video: 
-
+https://youtu.be/cD74q7qcI-4
 
 ## Please cite the following paper when using FLAT-Net
 ```latex
