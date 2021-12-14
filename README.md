@@ -93,11 +93,12 @@ https://youtu.be/cD74q7qcI-4
 
 ## Please cite the following paper when using FLAT-Net
 ```latex
-  @inproceedings{ÖzenNebliRekik2021
-    title={FLAT-Net: Longitudinal Brain Graph Evolution Prediction from a Few Training Representative Templates},
-    author={Özen,Guris and Nebli, Ahmet and Rekik, Islem},
-    booktitle=,
-    year={202},
-    organization=
-  }
+@inproceedings{ozen2021flat,
+  title={FLAT-Net: Longitudinal Brain Graph Evolution Prediction from a Few Training Representative Templates},
+  author={{\"O}zen, Guris and Nebli, Ahmed and Rekik, Islem},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  pages={266--278},
+  year={2021},
+  organization={Springer}
+}
 ```
