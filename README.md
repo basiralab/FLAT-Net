@@ -44,6 +44,15 @@ $ pip install networkx
 ```
 This is all for CPU installation, please visit (optional) PyTorch-Geometric’s web page (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for description on installing GPU version. Code will check the version of dependencies and availability of GPU. If everything is configured correctly, it will utilize GPU automatically.
  
+ ### *Tested Dependency Installation for Windows*
+```sh
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch (check from https://pytorch.org/get-started/locally/)
+conda install pyg -c pyg -c conda-forge
+pip install scikit-learn
+pip install matplotlib
+pip install torch-geometric
+pip install networkx
+```
 
 ## Run FLAT-Net
 To run our code, open up a terminal at FLAT-Net's directory and type in
