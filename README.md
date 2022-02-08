@@ -1,6 +1,6 @@
-# Few-shot LeArning Training Net-work (FLAT-Net), 
+# Few-shot LeArning Training Net-work (FLAT-Net)
 
-How to accurately  and  efficiently predictbrain graph evolution over time with small set of training examples?
+How to accurately and efficiently predict brain graph evolution over time with small set of training examples?
 
 Please contact gurisozen@gmail.com for inquiries. Thank you. 
 
@@ -43,10 +43,20 @@ $ pip install networkx
 
 ```
 This is all for CPU installation, please visit (optional) PyTorch-Geometric’s web page (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for description on installing GPU version. Code will check the version of dependencies and availability of GPU. If everything is configured correctly, it will utilize GPU automatically.
+
+### *Tested Dependency Installation for Windows*
+```sh
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch (check from https://pytorch.org/get-started/locally/)
+conda install pyg -c pyg -c conda-forge
+pip install scikit-learn
+pip install matplotlib
+pip install torch-geometric
+pip install networkx
+```
  
 
 ## Run FLAT-Net
-To run our code, open up a terminal at FLAT-Nets’s directory and type in
+To run our code, open up a terminal at FLAT-Net's directory and type in
 ```sh
 $ conda activate FLAT-Net 
 $ python demo.py
@@ -86,19 +96,19 @@ When given the brain connections data at t0, demo.py will produce two matrices s
 ## YouTube videos to install and run the code and understand how DGN works
 
 To install and run FLAT-Net, check the following YouTube video: 
-
-
+https://youtu.be/Q8RWv01j_PI
 
 To learn about how FLAT-Net works, check the following YouTube video: 
-
+https://youtu.be/cD74q7qcI-4
 
 ## Please cite the following paper when using FLAT-Net
 ```latex
-  @inproceedings{ÖzenNebliRekik2021
-    title={FLAT-Net: Longitudinal Brain Graph Evolution Prediction from a Few Training Representative Templates},
-    author={Özen,Guris and Nebli, Ahmet and Rekik, Islem},
-    booktitle=,
-    year={202},
-    organization=
-  }
+@inproceedings{ozen2021flat,
+  title={FLAT-Net: Longitudinal Brain Graph Evolution Prediction from a Few Training Representative Templates},
+  author={{\"O}zen, Guris and Nebli, Ahmed and Rekik, Islem},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  pages={266--278},
+  year={2021},
+  organization={Springer}
+}
 ```
